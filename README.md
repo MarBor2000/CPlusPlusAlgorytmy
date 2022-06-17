@@ -1,1 +1,3 @@
 # CPlusPlusAlgorytmy
+
+Rozwiązania kilku algorytmów.

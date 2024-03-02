@@ -1,0 +1,35 @@
+Treść zadania
+Napisz program, który wczytuje dwie losowe listy dodatnich liczb całkowitych i sprawdza, które elementy drugiej listy znajdują się również w pierwszej liście.
+
+Wejście
+
+Na standardowym wejściu program otrzyma opisy dwóch ciągów nieujemnych liczb całkowitych. Każdy z opisów składa się z liczby n oznaczającej liczbę elementów ciągu, oraz n nieujemnych liczb całkowitych będących elementami ciągów.
+
+
+0 <= n <= 2000000
+
+Wyjście
+
+Dla każdego elementu drugiego ciągu program powinien wypisać T lub N (oddzielone odstępami) w zależności od tego czy dana wartość występuje czy nie w pierwszym ciągu.
+
+Przykład
+
+Wejście
+5
+1
+3
+10
+7
+1
+4
+2
+1
+5
+10
+
+Wyjście
+N T N T
+Uwaga:
+W programie nie można używać STL-a, ani znajdujących się w bibliotece standardowej algorytmów.
+
+Magiczna linijka: ios_base::sync_with_stdio(false);

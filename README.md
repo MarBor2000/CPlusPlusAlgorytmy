@@ -1,3 +1,3 @@
 # CPlusPlusAlgorytmy
 
-Rozwiązania kilku algorytmów.
+Rozwiązania kilku algorytmów na zdanie przedmiotów z licencjatu/magisterki.

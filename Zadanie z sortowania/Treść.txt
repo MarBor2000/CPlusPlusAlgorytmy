@@ -1,0 +1,39 @@
+Treść zadania
+Napisz program, który wczytuje ciąg napisów o tej samej długości i sortuje je leksykograficznie (tj. alfabetycznie) względem znaków stojących na podanych pozycjach.
+
+
+Wejście
+Program na standardowym wejściu otrzyma liczbę n a następnie n napisów o tej samej długości składających się z małych liter alfabetu łacińskiego. Następnie program otrzyma liczbę m oraz m liczb całkowitych oznaczających indeksy pozycji względem których mają zostać jako posortowane napisy (pozycje numerowane są od zera). Indeksy podawane są w kolejności odwrotnej do ich wagi (czyli najbardziej znacząca pozycja podawana jest na końcu).
+
+1= n = 4000000
+
+
+Wyjście
+Program powinien wypisać wczytaną listę posortowaną leksykograficznie względem liter znajdujących się na wczytanych pozycjach. Elementy o takich samych wartościach na branych podczas sortowania pod uwagę pozycjach powinny zostać wypisane w oryginalnej kolejności.
+
+
+Przykład
+
+Wejście
+8
+aada
+daaa
+adaa
+aaad
+azcd
+czaz
+abcd
+aacd
+3
+3
+0
+2
+
+Wyjście
+adaa aaad czaz daaa azcd abcd aacd aada
+
+
+Uwaga
+Program powinien opierać się na samodzielnej implementacji algorytmu sortującego.
+
+Magiczna linijka ios_basesync_with_stdio(false);
